@@ -7,7 +7,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-func Print() string {
+func PrintBrick() string {
 	cwd, _ := os.Getwd()
 	envPath := filepath.Join(cwd, ".env")
 	_, err := os.Stat(envPath)
